@@ -1,0 +1,17 @@
+{
+  "name": "healync-e2e-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.3"
+  }
+}
